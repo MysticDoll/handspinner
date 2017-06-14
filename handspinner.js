@@ -85,7 +85,7 @@ const MomentManager = class MomentManager {
     }
   };
 
-  const manager = new MomentManager(document.body);
+  const manager = new MomentManager(document.querySelector("img"));
   let queue = [];
 
   if(/iPad|iPhone|iPod|Mobile|Android/.test(navigator.userAgent)) {
